@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/second.css" >
+</head>
+<body>
+    <div class="container container-md py-3 container-fluid"> 
+    <h2 class="h1 text-center py-2 text-uppercase m-0">Probe Test</h2>
+
+    <form class="form" action="../third/third.html">
+        <div class="form-group row d-flex align-items-center my-0 my-md-2" >
+            <label for="staticEmail " class="col-12 col-md-4 col-form-label h5  text-md-center">Boiling water &#8451;</label>
+            <div class="col-12 col-md-8">
+              <input type="text"  class="form-control" id="staticEmail" placeholder="&#8451;" >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword " class="col-12 col-md-4 col-form-label h5 text-md-center">Ice water&#8451;</label>
+            <div class="col-12 col-md-8">
+              <input type="text" class="form-control" id="inputPassword" placeholder="&#8451;">
+            </div>
+          </div>
+
+          <p class="m-0">Probe reading should be -1&#8451; to +1&#8451; for iced water test and 0&#8451; ti 101&#8451; for boiling test.</p>
+          <p class="py-1">Corrective actions if probe reading is outside of the -1/+1oC tolerance.</p>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary buton " >Next </button>
+      </form>
+    </div>
+</body>
+</html>
